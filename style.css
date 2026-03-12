@@ -1,0 +1,199 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #f3f3f3;
+    margin: 0;
+}
+
+/* main card */
+
+.container {
+    max-width: 1000px;
+    margin: 60px auto;
+    background: rgb(245, 238, 238);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* hero section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* profile image */
+
+.hero img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* text */
+
+.hero-text h1 {
+    font-size: 36px;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.hero-text p {
+    color: #666;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* buttons */
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.resume {
+    background: #f2e2de;
+    color: black;
+}
+
+.about-me {
+    background: #f0d6cf;
+    color: black;
+}
+
+.work {
+    background: #f4cfc7;
+    color: black;
+}
+
+.contact {
+    background: #e87a6a;
+    color: black;
+}
+
+.Inheritance {
+    Background: #bd5d4e;
+    color: black;
+}
+
+.penny-darling {
+    background: #e78f82;
+    color: black;
+}
+
+.wherewestayed {
+    background: #f9ada1;
+    color: black;
+}
+
+/* footer */
+
+footer {
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #666;
+}
+
+i {
+    font-size: 28px;
+    margin: right 15px;
+    color: #333;
+}
+
+i:hover {
+    color: #e87a6a;
+}
+
+nav a:hover {
+    opacity: .0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    /* Aligns items horizontally in the center */
+    /* Other options: space-between, space-around, flex-start, flex-end */
+    gap: 10px;
+    /* Adds space between images */
+}
+
+.flex-container img {
+    max-width: 100%;
+    /* Ensures images are responsive */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+.lift-image {
+    margin-top: -8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth motion */
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Initial shallow shadow */
+}
+
+.lift-image:hover {
+    transform: translateY(-10px);
+    /* Moves the image up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* Deepens shadow for "raised" look */
+}
+
+
+.fa-linkedin-square {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   /*Smooth motion*/
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+    /* Stays animated at end state */
+}
+
+.fa-linkedin-square:hover {
+    transform: translateY(-10px);
+    /*moves the image up*/
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+    /*deepens shadow for "raised" look*/
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+h1 {
+    margin-bottom: 30px;
+}
