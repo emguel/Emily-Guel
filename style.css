@@ -197,3 +197,23 @@ nav a:hover {
 h1 {
     margin-bottom: 30px;
 }
+/* RESPONSIVE */
+
+@media (max-width:1024px) {
+
+    .issue-grid {
+        gap: 20px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+    .issue {
+        width: 90%;
+    }
+}
