@@ -116,6 +116,11 @@ nav a {
     color: black;
 }
 
+.prologue {
+    background: #f2bab2;
+    color: black;
+}
+
 /* footer */
 
 footer {
@@ -177,17 +182,17 @@ nav a:hover {
 
 .fa-linkedin-square {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-   /*Smooth motion*/
+    /*Smooth motion*/
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
-    /* Stays animated at end state */
+        /* Stays animated at end state */
 }
 
 .fa-linkedin-square:hover {
     transform: translateY(-10px);
     /*moves the image up*/
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
-    /*deepens shadow for "raised" look*/
+        /*deepens shadow for "raised" look*/
 }
 
 .btn:hover {
@@ -197,6 +202,7 @@ nav a:hover {
 h1 {
     margin-bottom: 30px;
 }
+
 /* RESPONSIVE */
 
 @media (max-width:1024px) {
