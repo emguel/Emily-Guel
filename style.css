@@ -1,6 +1,6 @@
 body {
     font-family: "Inter", sans-serif;
-    background: #f3f3f3;
+    background: #ede6d9;
     margin: 0;
 }
 
@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 60px auto;
-    background: rgb(245, 238, 238);
+    background: #f8f4ed;
     padding: 50px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
@@ -31,7 +31,7 @@ nav {
 nav a {
     margin-left: 20px;
     text-decoration: none;
-    color: #333;
+    color: #6b7a5a;
     font-size: 14px;
 }
 
@@ -82,65 +82,65 @@ nav a {
 }
 
 .resume {
-    background: #f2e2de;
+    background: #b8c87a;    
     color: black;
 }
 
 .about-me {
-    background: #f0d6cf;
+    background: #98a675;
     color: black;
 }
 
 .work {
-    background: #f4cfc7;
+    background: #8fa770;            
     color: black;
 }
 
 .contact {
-    background: #e87a6a;
-    color: black;
+    background: #a0623a;
+    color: white;
 }
 
 .Inheritance {
-    Background: #bd5d4e;
-    color: black;
+    Background: #8b5a2b;
+    color: white;
 }
 
 .penny-darling {
-    background: #e78f82;
+    background: #a39b7a;
     color: black;
 }
 
 .wherewestayed {
-    background: #f9ada1;
+    background: #9cb584;
     color: black;
 }
 
 .prologue {
-    background: #f2bab2;
+    background: #c17d5c;
     color: black;
 }
 
 /* footer */
 
 footer {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #d4c5b0;
     margin-top: 50px;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     font-size: 13px;
-    color: #666;
+    color: #7d6d5d;
 }
 
 i {
     font-size: 28px;
     margin: right 15px;
-    color: #333;
+    color: #7d8c6a;
 }
 
 i:hover {
-    color: #e87a6a;
+    color: #a0623a;
 }
 
 nav a:hover {
@@ -213,13 +213,48 @@ h1 {
 
 }
 
-@media (max-width:767px) {
-
-    .header {
-        flex-direction: column;
+@media (max-width:768px) {
+    .container {
+        margin: 20px auto;
+        padding: 25px;
     }
 
-    .issue {
-        width: 90%;
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    nav a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .hero img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .btn {
+        display: block;
+        margin: 8px 0;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
     }
 }
