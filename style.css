@@ -70,15 +70,24 @@ nav a {
 
 .buttons {
     margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .btn {
-    padding: 12px 22px;
-    border-radius: 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
     text-decoration: none;
-    margin-right: 12px;
     font-size: 14px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    transition: transform 0.3s ease;
 }
 
 .resume {
@@ -102,23 +111,40 @@ nav a {
 }
 
 .Inheritance {
-    Background: #8b5a2b;
+    background: #8b5a2b;
     color: white;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 30px !important;
+    padding: 12px 22px !important;
 }
 
 .penny-darling {
     background: #a39b7a;
     color: black;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 30px !important;
+    padding: 12px 22px !important;
 }
 
 .wherewestayed {
     background: #9cb584;
     color: black;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 30px !important;
+    padding: 12px 22px !important;
 }
 
 .prologue {
     background: #c17d5c;
     color: black;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 30px !important;
+    padding: 12px 22px !important;
+    max-width: 150px;
 }
 
 /* footer */
