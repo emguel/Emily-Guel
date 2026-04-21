@@ -272,9 +272,12 @@ h1 {
     }
 
     .btn {
-        display: block;
-        margin: 8px 0;
-        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 8px auto;
+        width: 80px !important;
+        height: 80px !important;
         text-align: center;
         margin-right: 0;
     }
