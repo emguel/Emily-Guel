@@ -4,6 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Emily</title>
 
     <link rel="stylesheet" href="style.css">
@@ -23,7 +24,7 @@
 
         <nav>
             <div class="logo">Emily Guel</div>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
             <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
@@ -40,13 +41,16 @@
     </nav>
         </div>
     </nav>
-
+<main>
     <h1>Contact</h1>
 
     <div>
         <form action="https://formsubmit.co/emguel@ttu.edu" method="POST">
+            <label for="name">Your Name</label>
             <input type="text" name="name" placeholder="Your Name" required>
+            <label for="email">Your Email</label>
             <input type="email" name="email" placeholder="Your Email" required>
+            <label for="message">Your Message</label>
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send</button>
         </form>
@@ -61,7 +65,7 @@
         <p>LinkedIn: linkedin.com/in/emilyguel</p>
     </a>
     </div>
-
+<main>
 </body>
 
 </html>
