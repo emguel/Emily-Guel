@@ -4,6 +4,13 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="description"
+        content="Writing portfolio of Emily Guel, a fiction writer and screenwriter interested in horror, fantasy, and Hispanic folklore.">
+    <meta property="og:title" content="Emily Guel | Writer">
+    <meta property="og:description"
+        content="Writing portfolio of Emily Guel, a fiction writer and screenwriter interested in horror, fantasy, and Hispanic folklore.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://emilyguel.com">
     <title>Portfolio | Emily</title>
 
     <link rel="stylesheet" href="style.css">
@@ -17,7 +24,13 @@
         <nav>
             <div class="logo">Emily Guel</div>
 
-            <div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="resume.html">Resume</a>
                 <a href="about-me.html">About Me</a>
@@ -26,36 +39,47 @@
         </nav>
 
         <h1>Writing Portfolio</h1>
-        <div class="buttons">
+        <div class="portfolio-grid">
+            <div class="portfolio-card Inheritance">
+                <a class="card-link" href="Inheritance.html">
+                    <h3>Script Sample - Inheritance</h3>
+                    <p>A folkloric horror short film script: Two siblings face their only inheritance: a generational
+                        curse.</p>
+                </a>
+            </div>
 
-            <a class="btn Inheritance"
-                href="https://www.dropbox.com/scl/fi/a9z68xs5702dsimwoai49/Inheritance.pdf?rlkey=5qd1vj9pj8568wtq759njylfz&st=s77prfiq&dl=0">Script
-                Sample - Inheritance</a>
+            <div class="portfolio-card penny-darling">
+                <a class="card-link" href="penny-darling.html">
+                    <h3>Script Sample - Penny, Darling</h3>
+                    <p>Script sample: Boys always liked Penny. Penny is over it.</p>
+                </a>
+            </div>
 
+            <div class="portfolio-card wherewestayed">
+                <a class="card-link"
+                    href="https://www.dropbox.com/scl/fi/22s8kl6fq653d406usc6l/wherewestayed.pdf?rlkey=r0gooil508pugxce921l0lqzb&st=4pnf6tlw&dl=0">
+                    <h3>Horror Flash Fiction - Where We Stayed</h3>
+                    <p>A horror flash fiction: When a house isn't a home.</p>
+                </a>
+            </div>
+
+            <div class="portfolio-card werewolves">
+                <a class="card-link" href="https://emguel.itch.io/werewolf-of-belstone">
+                    <h3>Interactive Fiction - Werewolves of Belstone</h3>
+                    <p>An interactive horror fiction game: you choose your path.</p>
+                </a>
+            </div>
         </div>
-        <p>A folkloric horror short film script: Two siblings face their only inheritance: a generational curse.</p>
-
-        <div class="buttons">
-
-            <a class="btn penny-darling"
-                href="https://www.dropbox.com/scl/fi/2u7j29hhrejouskqd44pk/Penny-Darling-1.pdf?rlkey=ecld1vbufgcudmqnk1ggzdzcw&st=9yg2jvgl&dl=0">Script
-                Sample - Penny, Darling</a>
-
-        </div>
-        <p>Script sample: Boys always liked Penny. Penny is over it.</p>
-
-        <div class="buttons">
-
-            <a class="btn wherewestayed"
-                href="https://www.dropbox.com/scl/fi/22s8kl6fq653d406usc6l/wherewestayed.pdf?rlkey=r0gooil508pugxce921l0lqzb&st=4pnf6tlw&dl=0">Horror
-                Flash Fiction - Where We Stayed</a>
-
-        </div>
-        <p>A horror flash fiction: When a house isn't a home.</p>
 
         <h3>A New Novel Coming Soon...</h3>
-        <a class="btn prologue" href="https://www.dropbox.com/home/Prologue%20Preview?preview=Inheritance+-+novel.pdf">
-            Prologue Preview</a>
+        <div class="portfolio-grid single">
+            <div class="portfolio-card prologue">
+                <a class="card-link"
+                    href="https://www.dropbox.com/home/Prologue%20Preview?preview=Inheritance+-+novel.pdf">
+                    <h3>Prologue Preview</h3>
+                </a>
+            </div>
+        </div>
 
     </div>
 
